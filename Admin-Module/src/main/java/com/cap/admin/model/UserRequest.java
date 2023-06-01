@@ -8,7 +8,8 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 public class UserRequest {
- 
+  
+	public UserRequest(){}
 	public UserRequest(String username, String password) {
 		super();
 		this.username = username;
