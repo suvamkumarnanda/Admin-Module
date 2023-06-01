@@ -13,7 +13,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 public class Train {
-	
+	public Train(){}
 	
 	private Integer  trainNum;
 	public Integer getTrainNum() {
